@@ -22,19 +22,47 @@ header
 		a.dropdown-toggle
 			color: #999
 			font-size: 14px
-			margin-top: 3px
-			padding: 5px 0
+			margin-top: 3px 0 0
+			padding: 8px 0 4px
 			display: block
-			&:hover, &:active
+			&:hover, &:active, &:focus
 				color: #fff
 				text-decoration: none
 
+
+ul.col-md-3
+	margin: 0
+				
+
+.dropdown-menu
+	border-radius: 0
+	border: none
+	margin-top: 8px
+	>li
+		>a
+			padding: 5px 20px	
+			&:focus, &:hover
+				background-color: $accent2
+				color: #FFF
+						
+
 .header-phone
 	display: inline-block
-	color: #fff				
+	color: #fff
+	float: right
+	font-size: 18px
+	padding-top: 4px
+	padding-left: 10px
+	border-left: 1px solid #444
+	
+
 
 .logo
 	margin-top: 4px
+
+.form-control
+	&:focus-visible
+		box-shadow: none	
 
 #search
 	width: 100%
@@ -74,3 +102,4 @@ header
 
 @import "media"
 
+// 01:34:27
